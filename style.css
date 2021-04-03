@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(248, 248, 248);
+}
+
+.container .nav-bar img{
+    width: 130px;
+    padding: 0.5em;
+}
+
+.container .nav-bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.container .nav-bar a{
+    text-decoration: none;
+    font-size: 0.9em;
+    color: rgb(0, 132, 255);
+    margin: 1em;
+}
+.container .nav-bar a:hover{
+    color: rgb(2, 4, 112);
+}
+
+/* -----form----- */
+
+.form .container{
+text-align: center;
+}
+
+.form .container .card{
+    width: 40%;
+    margin: auto;
+    color: black;
+}
+.form .container p{
+    margin-bottom: 0.6em;
+    font-size: 1em;
+}
+.form .container h4{
+    margin-bottom: 0.6em;
+    font-size: 1.2em;
+}
+
+.form .container .log-in-form .use-current-acc{
+    margin: 0 2.5em 0.6em 0.3em;
+    padding: 0;
+    font-size: 0.8em;
+    align-self: flex-start;
+}
+
+.log-in-form input[type="text"],
+.log-in-form input[type="password"],
+select,
+.log-in-form input[type="email"],
+input {
+    font-size: 1em;
+    padding: 0.5em;
+    border: 0;
+    border-bottom: 1px solid rgb(194, 193, 193);
+    width: 90%;
+    margin: .3em;
+}
+
+.log-in-form select{
+    color: rgb(128, 125, 125);
+    background: none;
+}
+
+.log-in-form .country-code{
+ width: 100px;
+ background: none;
+}
+
+.log-in-form select:focus,
+.log-in-form input:focus {
+outline: none;
+border-bottom: 2.5px solid rgb(23, 180, 233);
+}
+
+
+.log-in-form a{
+    text-decoration: none;
+    font-size: 1.1em;
+    color: rgb(0, 132, 255);
+}
+.log-in-form p{
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+    padding: 0.8em;
+}
+
+@media (max-width: 800px) {
+    .form .container .card{
+        width: 50%;
+        margin: auto;
+        color: black;
+    }
+}
+
+@media (max-width: 635px) {
+    .form .container .card{
+        width: 60%;
+        margin: auto;
+        color: black;
+    }
+}
+
+@media (max-width: 500px) {
+    .form .container .card{
+        width: 80%;
+        margin: auto;
+        color: black;
+    }
+}
