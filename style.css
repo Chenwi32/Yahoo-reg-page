@@ -112,9 +112,9 @@ border-bottom: 2.5px solid rgb(23, 180, 233);
         color: black;
     }
     
-    .container .nav-bar>a{
+    /*.container .nav-bar>a{
     display: none;
-    }
+    }*/
     
     .container .nav-bar{
     justify-content: center;
